@@ -1,0 +1,18 @@
+# Table S9. Spearman correlations
+
+| Dataset | Variable 1 | Variable 2 | Spearman rho |
+| --- | --- | --- | --- |
+| eICU | Hypotension burden | Hypoxemia burden | 0.197 |
+| eICU | Hypotension burden | Age | 0.153 |
+| eICU | Hypotension burden | GCS total | -0.095 |
+| eICU | Hypoxemia burden | Age | 0.071 |
+| eICU | Hypoxemia burden | GCS total | -0.035 |
+| eICU | Age | GCS total | 0.166 |
+| MIMIC-IV | Hypotension burden | Hypoxemia burden | 0.032 |
+| MIMIC-IV | Hypotension burden | Age | 0.294 |
+| MIMIC-IV | Hypotension burden | GCS total | -0.050 |
+| MIMIC-IV | Hypoxemia burden | Age | 0.123 |
+| MIMIC-IV | Hypoxemia burden | GCS total | -0.044 |
+| MIMIC-IV | Age | GCS total | 0.058 |
+
+Note: Only unique off-diagonal variable pairs are shown. Correlations used the landmark analysis cohorts in each database.

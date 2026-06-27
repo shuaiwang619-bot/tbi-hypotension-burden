@@ -1,0 +1,14 @@
+# Table S2 Landmark And Coverage Exclusions
+
+| Database | Gate | Group | N | ICU deaths | Hospital deaths | GCS median | Window hours, median | Hypotension burden, median | Hypoxemia burden, median |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| eICU | coverage_gate | coverage_eligible | 843 | 191 (22.7) | 261 (31.0) | 5.0 | 24.0 | 0.089109 | 0.0 |
+| eICU | coverage_gate | coverage_excluded | 146 | 72 (49.3) | 93 (63.7) | 3.0 | 9.575 | 0.86338 | 0.307304 |
+| eICU | landmark_gate | landmark_main | 777 | 158 (20.3) | 217 (27.9) | 5.0 | 24.0 | 0.081577 | 0.0 |
+| eICU | landmark_gate | early_exit_or_death_before_24h | 182 | 97 (53.3) | 127 (69.8) | 3.0 | 12.458333 | 1.071553 | 0.046382 |
+| eICU | landmark_gate | landmark_coverage_excluded | 30 | 8 (26.7) | 10 (33.3) | 6.0 | 24.0 | 0.117177 | 0.217521 |
+| MIMIC-IV | coverage_gate | coverage_eligible | 207 | 33 (15.9) | 62 (30.0) | 7.0 | 24.0 | 0.15899 | 0.0 |
+| MIMIC-IV | coverage_gate | coverage_excluded | 16 | 6 (37.5) | 10 (62.5) | 4.5 | 17.745417 | 0.344262 | 2.038339 |
+| MIMIC-IV | landmark_gate | landmark_main | 187 | 26 (13.9) | 49 (26.2) | 7.0 | 24.0 | 0.132997 | 0.0 |
+| MIMIC-IV | landmark_gate | early_exit_or_death_before_24h | 30 | 13 (43.3) | 22 (73.3) | 6.0 | 17.024025 | 0.522918 | 0.0 |
+| MIMIC-IV | landmark_gate | landmark_coverage_excluded | 6 | 0 (0.0) | 1 (16.7) | 4.0 | 24.0 | 0.048978 | 0.0 |
