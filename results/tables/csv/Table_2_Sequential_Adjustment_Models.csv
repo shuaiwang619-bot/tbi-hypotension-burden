@@ -1,0 +1,4 @@
+Model,Adjustment set,eICU analysis set (N/events),OR (95% CI),P value,eICU apparent C-index,Brier score
+Unadjusted model,Hypotension burden only,775/158,1.401 (1.174-1.672),<0.001,0.630,0.159
+Clinical adjustment,Hypotension burden + age + sex + GCS,775/158,1.363 (1.130-1.645),0.001,0.749,0.144
+Fully adjusted primary model,Hypotension burden + hypoxemia burden + age + sex + GCS,775/158,1.350 (1.120-1.629),0.002,0.750,0.143
