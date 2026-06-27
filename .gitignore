@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+.Rhistory
+.DS_Store
+Thumbs.db
+
+# Local and derived outputs
+03_outputs/
+data/
+raw_data/
+derived_data/
+*.log
+*.tmp
+*.bak
+
+# Office temporary files
+~$*
+
+# Environment files
+.venv/
+venv/
+env/
+.env
+
